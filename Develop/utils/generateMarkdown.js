@@ -36,12 +36,10 @@ function generateMarkdown(data) {
   ${renderLicense(data)}
 
   ## Description:
-  ---
   ${data.description}
 
 
   ## Table of Contents:
-  ---
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -51,32 +49,26 @@ function generateMarkdown(data) {
   
 
   ## Installation:
-  ---
   ${data.installation}
 
 
   ## Usage:
-  ---
   ${data.usage}
 
 
   ## License:
-  ---
   ${`${data.license} License`}
 
 
   ## Contributions:
-  ---
   ${data.contributions}
 
 
   ## Tests:
-  ---
   ${data.tests}
   
 
   ## Questions?
-  ---
   If you have any questions, contact me via email at ${data.email}.
   For more applications, check out and follow my GitHub profile at [${data.username}](https://github.com/${data.username}).
 `;
