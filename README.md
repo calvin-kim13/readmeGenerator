@@ -1,60 +1,53 @@
- # README Generator
+# README GENERATOR
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+
+This project allows users to generate and create a README file on the command line instead of creating a file manually. The users must respond to the inquirer prompt on the command line and based on the data, the README file will be generated.
+
+
+## Table of Contents
+
+Use these links to navigate through this README.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+To install this application, open `terminal` and clone in a new directory.
  
+    git clone https://github.com/calvin-kim13/readmeGenerator.git
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-    
+Or, simply fork the repository.
 
-  ## Description:
-  ---
-  This project allows users to generate and create a README file on the command line instead of creating a file manually.
+## Usage
 
+After cloning the repository, on the command line, run:
 
-  ## Video:
-  ---
-  Link to YouTube video:
-  [![Watch the video](/img/Screen Shot 2022-02-21 at 9.03.34 PM.png)](https://www.youtube.com/watch?v=1D4Ew4VsIr0&list=PLPdVLNElkLqdkJ6MO1l6FyNAu1lVDLa_Y&index=5)
+    node index.js
 
-  ## GitHub Repository Link: 
-  ---
-  - https://github.com/calvin-kim13/readmeGenerator 
+Then respond to the prompts accordingly.
 
+### Link to instruction video:
+[![Watch the video](/img/Screen Shot 2022-02-21 at 9.03.34 PM.png)](https://www.youtube.com/watch?v=1D4Ew4VsIr0&list=PLPdVLNElkLqdkJ6MO1l6FyNAu1lVDLa_Y&index=5)
 
-  ## Table of Contents:
-  ---
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributions](#contributions)
-  * [Tests](#tests)
-  * [Questions](#questions)
-  
+## LIVE
+| DEPLOYMENT | URL | STATUS |
+| ---------- | --- | ------ |
+| Repository  | [GitHub Repo](https://github.com/calvin-kim13/readmeGenerator ) |  ACTIVE 🟢   |
 
-  ## Installation:
-  ---
-  To install this project, users can clone this repo on the command line. 
+## Credits
 
+- N/A
 
-  ## Usage:
-  ---
-  To use the project, users can input node index.js after navigating into the right folder. This will provide the questions to create the README.
+## License
 
+This application is covered under MIT License    
 
-  ## License:
-  ---
-  MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+©2022 Calvin Kim
 
-  ## Contributions:
-  ---
-  To contribute, users can contact me via email which is provided below.
-
-
-  ## Tests:
-  ---
-  The test instructions are: npm init and then npm i inquirer.
-
-
-  ## Questions?
-  ---
-  - If you have any questions, contact me via email at calvinkim1230@gmail.com.
-  - For more applications, check out and follow my GitHub profile at [calvin-kim13](https://github.com/calvin-kim13).
